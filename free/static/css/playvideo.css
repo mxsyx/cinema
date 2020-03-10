@@ -1,0 +1,133 @@
+.breadcrumb {
+    margin-bottom: 8px;
+    background-color: transparent;
+}
+.breadcrumb li a {
+    font-size: 16px;
+}
+iframe {
+    height: 275px;
+}
+@media(min-width:768px) {
+    iframe {
+        height: 600px;
+    }
+}
+#container_play {
+    padding: 5px;
+    border: solid rgb(85, 85, 85) 1px;
+    border-radius: 10px;
+    margin:auto 10px;
+    text-align: center;
+}
+@media(min-width:768px) {
+    #container_play {
+        margin: auto;
+    }
+}
+#container_playurl {
+    padding-top: 20px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 12px;
+    margin: 10px;
+}
+@media(min-width:768px) {
+    #container_playurl {
+        margin: 20px auto;
+    }
+}
+h3 {
+    color: #0099FF;
+    margin: 0px;
+    border-bottom: solid 2px #555555;
+    padding-bottom: 8px;
+    user-select: none;
+    font-size: 20px;
+}
+@media(min-width:768px) {
+    h3 {
+        font-size: 22px;
+    }
+}
+.itemlist {
+    padding: 5px;
+}
+.itemlist li {
+    width: 90px;
+    height: 30px;
+    background-color: #494949;
+    display: inline-block;
+    border: solid 0.5px #292929;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 30px;
+    margin: 4px 8px;
+}
+@media(min-width:768px){
+    .itemlist li{
+        margin: 4px 4px;
+    }
+}
+.itemlist li:hover {
+    background-color: #009999;
+}
+.itemlist li a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: #cccccc;
+}
+.pn{
+    font-size: 15px;
+    margin:auto 5px;
+}
+.pn:hover{
+    color:#B2DE34;
+}
+.container-feedback {
+    padding-top: 20px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 12px;
+    margin: 10px;
+}
+@media(min-width:768px) {
+    .container-feedback {
+        margin: 20px auto;
+    }
+}
+.container-feedback .panel{
+    border:none;
+    background-color:rgb(51,51,51);
+}
+.container-feedback .panel-heading{
+    border:none;
+    background-color:rgb(51,51,51);
+    color:rgb(187, 187, 187);
+    padding-top:0px;
+    padding-bottom: 3px;
+}
+.container-feedback .panel-heading a:hover{
+    color:#00CC00;
+}
+.container-feedback .panel .panel-body{
+   font-size: 14px;
+   color:rgb(187, 187, 187);
+}
+.container-feedback input{
+    color:black;
+    border-radius: 5px;
+    margin-left:10px;
+    background-color:rgb(230,230,230);
+    width:300px;
+}
+.container-feedback button{
+    background-color: rgb(101, 172, 101);
+    border-radius: 5px;
+    color:white;
+    border:none;
+    width:80px;
+    height: 30px;
+}
+
